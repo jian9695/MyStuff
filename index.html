@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body 
+{
+  font-family: Arial;
+  background-color: #f9f2f3;  
+  color: #223e3e;
+  font-size: 20px;
+}
+
+a:hover {
+  cursor:pointer;
+ }
+         .pointer-link {
+            cursor: pointer;
+        }
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #223e3e;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #Ffffff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: none;
+  border-top: none;
+  width: 100%; 
+}
+
+#contact table, th, td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+</style>
+</head>
+<body onload="onBodyLoad()">
+
+
+<table>
+  <tr>
+    <th><img src="Rongxingtai.png" width="410" height="100"></th>
+    <th><img src="Rongxingtai_Chinese.png" width="219" height="69" style="margin-right: 80px;"></th>	
+    <th><h1 langkey="PlasticProducts">Plastic Products</h1></th>
+  </tr>
+</table>
+
+<!-- <h2>Rongxingtai Plastic Solutions</h2> -->
+<!-- <p>Click on the buttons inside the tabbed menu:</p> -->
+<!-- <img src="rongxingtai.png" width="410" height="100"> -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab('Products')" langkey="Products">Products</button>
+  <button class="tablinks" onclick="openTab('About')" langkey="About">About</button>  
+  <button class="tablinks" onclick="openTab('Contact')" langkey="Contact">Contact</button>
+  <button class="tablinks" onclick="toggleLanguage()" id="LangBtn">中文</button>
+</div>
+
+<div id="Products" class="tabcontent">
+  <table style="width:100%">
+  <tr>
+    <td style="width:10%">
+    </td>
+    <td align="center" style="vertical-align:top">
+
+
+
+  <table>
+  <tr>
+    <td style="text-align: center;font-size: 30px">
+      <p langkey="PlainColorTablecloths">Plain-color Tablecloths</p>
+    </td>
+  </tr>
+  <tr>
+	<td align="center">
+       <img src="PlainColor01.png" width="512" height="512">
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="PlainColor02.png" width="512" height="512">
+    </td>	
+  </tr>
+   <tr>
+	<td align="center" >
+       <img src="PlainColor03.png" width="512" height="512">
+    </td>	
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="PlainColor04.png" width="512" height="512">
+    </td>	
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="PlainColor05.png" width="512" height="512">
+    </td>	
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="PlainColor06.png" width="512" height="512">
+    </td>	
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="PlainColor01.png" width="512" height="512">
+    </td>	
+  </tr>  
+  </table>
+  
+    </td>
+	
+	
+	
+	<td align="center">
+
+
+  <table>
+  <tr>
+    <td style="text-align: center;font-size: 30px">
+      <p langkey="CustomMadeTablecloths">Custom-made Tablecloths</p>
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom01.png" width="512" height="512">
+    </td>	
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom02.png" width="512" height="512">
+    </td>
+  </tr>
+   <tr>
+	<td align="center" >
+       <img src="Custom03.png" width="512" height="512">
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom04.png" width="512" height="512">
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom05.png" width="512" height="512">
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom06.png" width="512" height="512">
+    </td>
+  </tr>
+  <tr>
+	<td align="center" >
+       <img src="Custom07.png" width="512" height="512">
+    </td>
+  </tr>    
+  </table>
+
+
+    </td>
+    <td style="width:10%">
+    </td>	
+  </tr>
+  </table>
+
+</div>
+
+<div id="About" class="tabcontent">
+  <table style="width:100%">
+  <tr>
+    <td style="width:10%">
+    </td>
+    <td style="text-align: justify;font-size: 25px;">
+  <p langkey="Profile">Rongxingtai plastic products LLC specializes in the manufacture and distribution of plain-color plastic tablecloth. 
+  We also provide make-to-order services to produce plastic tablecloth with custom design. 
+  With over 30 years of experience in plastic tablecloth manufacture, 
+  our factory has been rigorously certified and we have been supplying leading retailers worldwide including Disney, Walmart and Party City.</p>
+    </td>
+	<td>
+       <img src="PlainColor01.png" width="500" height="500">
+    </td>
+    <td style="width:10%">
+    </td>	
+  </tr>
+</table>
+
+</div>
+
+<div id="Contact" class="tabcontent">
+
+<table style="width:100%; margin-top: 20px;">
+  <tr>
+    <td style="width:25%">
+    </td>
+    <td style="width:25%;text-align: center">
+	  <img src="email.png" width="120" height="120">
+    </td>
+	<td style="width:25%;text-align: center">
+	  <img src="location.svg" width="120" height="120">
+    </td>
+    <td style="width:25%">
+    </td>	
+  </tr>
+  
+  <tr>
+    <td style="width:25%">
+    </td>
+    <td style="width:25%;vertical-align: text-top;text-align: center">
+	
+	<table style="width:100%">
+	<tr><td langkey="Quote">Reach out to us for a quote:</td></tr>
+	<tr><td ><a href = "mailto: contact@rongxingtai.net">contact@rongxingtai.net</a></td></tr>
+	</table>
+	
+    </td>
+	<td style="width:25%;vertical-align: text-top;text-align: center">
+	
+	
+	<table style="width:100%">
+	<tr><td langkey="FactoryAddress">Factory Address</td></tr>
+	<tr><td><a target="_blank" class="pointer-link" href="https://j.map.baidu.com/42/tZig"><i langkey="Address">164 Honghu Road, Yanchung, Songgang, Shenzhen 518000, Guangdong Province, China</i></a></td></tr>
+	<tr><td><a target="_blank" class="pointer-link" href="https://j.map.baidu.com/42/tZig"><i langkey="BaiduMap">Baidu Map</i></a></td></tr>
+	<tr><td><a target="_blank" class="pointer-link" href=" https://goo.gl/maps/b8WZTvLAReb2gT318"><i langkey="GoogleMaps">Google Maps</i></a></td></tr>	
+	</table>
+	
+    </td>
+    <td style="width:25%">
+    </td>	
+  </tr>
+  
+  
+    <tr>
+    <td style="width:25%">
+    </td>
+    <td style="width:25%;text-align: center;padding-top:20px">
+	  <img src="phone.png" width="120" height="120">
+    </td>
+	<td style="width:25%;text-align: center">
+
+    </td>
+    <td style="width:25%">
+    </td>	
+  </tr>
+  
+    <tr>
+    <td style="width:25%">
+    </td>
+    <td style="width:25%;vertical-align: text-top;text-align: center">
+	
+	<table style="width:100%">
+	<tr><td langkey="Call">Call us at:</td></tr>
+	<tr><td langkey="Phone">Please make an appointment by e-mail</td></tr>
+	</table>
+	  
+	  
+    </td>
+	<td style="width:25%;vertical-align: text-top;text-align: center">
+
+    </td>
+    <td style="width:25%">
+    </td>	
+  </tr>
+</table>
+
+  <!-- <p> -->
+<!-- Sales Manager: Ms. Guan<br> -->
+<!-- E-mail: gyy55@126.com<br> -->
+<!-- Phone: 15314170713<br> -->
+<!-- Address: 164 Honghu Road, Yanchung, Songgang, Shenzhen 518000, Guangdong Province, China<br> -->
+<!-- Location in Baidu Map: https://j.map.baidu.com/42/tZig<br> -->
+<!-- </p> -->
+</div>
+
+<script>
+
+const Chinese = 
+{
+'PlasticProducts':'塑胶制品',
+'Products':'产品',
+'About':'关于',
+'Contact':'联系方式',
+'PlainColorTablecloths':'纯色桌布',
+'CustomMadeTablecloths':'定制桌布',
+'Profile':'深圳市荣兴泰塑胶制品有限公司位于深圳市宝安区松岗街道燕川红湖路164号厂房2栋，是一家专业从事塑胶制品开发、生产和销售的企业，拥有三十多年一次性桌布生产经验，批发销售纯色一次性桌布以及基于客户定制设计的一次性桌布，长期客户包括为迪士尼、沃尔玛及Party City等美国大型连锁零售商。',
+'Quote':'邮件联系报价',
+'FactoryAddress':'工厂地址',
+'Call':'联系电话',
+'Phone':'15314170713 (关小姐)',
+'Address':'广东省深圳市宝安区松岗街道燕川红湖路164号厂房2栋',
+'BaiduMap':'Baidu地图',
+'GoogleMaps':'Google地图',
+};
+
+const English = 
+{
+'PlasticProducts':'Plastic Tablecloths',
+'Products':'Products',
+'About':'About',
+'Contact':'Contact',
+'PlainColorTablecloths':'Plain-color Tablecloths',
+'CustomMadeTablecloths':'Custom-made Tablecloths',
+'Profile':'Rongxingtai plastic products LLC manufactures and distributes plain-color and custom-made plastic tablecloths. With over 30 years of experience in plastic tablecloth manufacturing, our factory has been rigorously certified and are being regularly inspected by major retaliers, and we have been supplying plastic tablecloths to leading retailers worldwide including Disney, Walmart and Party City.',
+'Quote':'Reach out to us for a quote:',
+'FactoryAddress':'Factory Address:',
+'Call':'Call us at:',
+'Phone':'By appointment only',
+'Address':'164 Honghu Road, Yanchung, Songgang, Shenzhen 518000, Guangdong Province, China',
+'BaiduMap':'Baidu Map',
+'GoogleMaps':'Google Maps',
+};
+
+var CurrentLanguage = 'English';
+
+<!-- PlasticProducts	Plastic Tablecloths	塑胶制品 -->
+<!-- Products	Products	产品 -->
+<!-- About	About	关于 -->
+<!-- Contact	Contact	联系方式 -->
+<!-- PlainColorTablecloths	Plain-color Tablecloths	纯色桌布 -->
+<!-- CustomMadeTablecloths	Custom-made Tablecloths	定制桌布 -->
+<!-- Profile	Rongxingtai plastic products LLC manufactures and distributes plain-color and custom-made plastic tablecloths. With over 30 years of experience in plastic tablecloth manufacturing, our factory has been rigorously certified and are being regularly inspected by major retaliers, and we have been supplying plastic tablecloths to leading retailers worldwide including Disney, Walmart and Party City.	深圳市荣兴泰塑胶制品有限公司位于深圳市宝安区松岗街道燕川红湖路164号厂房2栋，是一家专业从事塑胶制品开发、生产和销售的企业，拥有三十多年一次性桌布生产经验，批发销售纯色一次性桌布以及基于客户定制设计的一次性桌布，长期客户包括为迪士尼、沃尔玛及Party City等美国大型连锁零售商。 -->
+<!-- Quote	Reach out to us for a quote:	邮件联系报价 -->
+<!-- Visit	Visit us at:	工厂地址 -->
+<!-- Call	Call us at:	联系电话 -->
+<!-- ByAppointment	By appointment only	需邮件预约 -->
+<!-- Address	164 Honghu Road, Yanchung, Songgang, Shenzhen 518000, Guangdong Province, China	深圳市宝安区松岗街道燕川红湖路164号厂房2栋 -->
+<!-- BaiduMap	Baidu Map	Baidu地图 -->
+<!-- GoogleMaps	Google Maps	Google地图 -->
+
+
+function openTab(tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  //evt.currentTarget.className += " active";
+}
+
+function toggleLanguage() {
+ if (CurrentLanguage == 'English'){  
+     CurrentLanguage = '中文';
+	 document.getElementById('LangBtn').innerHTML = 'English';
+ }
+ else{
+    CurrentLanguage = 'English';
+	document.getElementById('LangBtn').innerHTML = '中文';	
+ }
+ loadLanguage();
+}
+
+
+function loadLanguage() {
+ if (CurrentLanguage == 'English'){  
+ document.querySelectorAll("[langkey]")
+    .forEach(loadEnglish);
+ }
+ else{
+ document.querySelectorAll("[langkey]")
+    .forEach(loadChinese);
+ }
+}
+
+function loadChinese(element) {
+  const key = element.getAttribute("langkey");
+  var translation = Chinese[key];
+  element.innerText = translation;
+}
+
+function loadEnglish(element) {
+  const key = element.getAttribute("langkey");
+  var translation = English[key];
+  element.innerText = translation;
+}
+
+function onBodyLoad() {
+  openTab("Products");
+  //loadLanguage();
+}
+</script>
+   
+</body>
+</html> 
